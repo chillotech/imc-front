@@ -1,6 +1,6 @@
 services:
   imc-front:
-    image: imc-front:1.0.0
+    image: simachille/imc-front:1.0.0
     container_name: imc-front
     restart: always
     networks:
