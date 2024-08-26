@@ -1,0 +1,12 @@
+services:
+  imc-front:
+    image: imc-front:1.0.0
+    container_name: imc-front
+    restart: always
+    networks:
+      - applications-network
+
+networks:
+  applications-network:
+    external: true
+    name: applications-network
